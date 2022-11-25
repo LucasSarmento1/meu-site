@@ -1,0 +1,65 @@
+h1 {
+    color:rgb(234, 223, 10)
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 47, 47);
+}
+a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+a:visited{
+    color: rgb(217, 255, 0);
+}
+a:link{
+    color: rgb(255, 230, 0);
+}
+
+
+p,h2{
+    text-align: center;
+}
+    
+
+.header{
+    background-color: #993399;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.menu{
+    
+    margin: 100px;
+    padding: 10px;
+    padding-right: 20px;
+}
+.menu a{
+    padding-left: 30px;
+}
+.iten {position: relative;}
+
+.iten p{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.iten:hover p{
+    opacity: 1;
+}
+.iten:hover img{
+    opacity: 0.3;
+}
+
